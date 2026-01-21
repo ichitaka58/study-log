@@ -95,7 +95,7 @@ function App() {
 
   return (
     <>
-      <h1>学習記録アプリ</h1>
+      <h1 style={{ color:"red", textShadow: "0 0 4px gray" }}>学習記録アプリ</h1>
       <InputStudyData
         title={title}
         time={time}
