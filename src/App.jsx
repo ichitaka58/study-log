@@ -110,7 +110,7 @@ function App() {
         入力されている時間：<span>{time}</span>
       </div>
       <div>
-        <button onClick={onClickAdd}>登録</button>
+        <button onClick={onClickAdd} style={{ backgroundColor: "lightBlue"}}>登録</button>
       </div>
       {isLoading ? (
         <p>Loading...</p>
